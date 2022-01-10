@@ -52,7 +52,7 @@ public class HomePageTest extends WebBase {
         }
     }
     // data driven approach using data base
-    @Test
+    @Test(enabled = false)
     public void testSearchKeywordFunctionality2() throws Exception {
         for (int i = 0; i < getItemsListFromDB().size(); i++) {
             // getItemValue().get(i);

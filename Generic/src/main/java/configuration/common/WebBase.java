@@ -43,8 +43,8 @@ import java.util.concurrent.TimeUnit;
 
 public class WebBase {
     public static WebDriver driver;
-    public static String browserStack_userName = "demo_i3wOhm";
-    public static String browserStack_accesskey = "XVTTzqMqLhvWBkDZQvNq";
+    public static String browserStack_userName = "demo_fg4j5p";
+    public static String browserStack_accesskey = "sPs1iGWsCyLqHCLkipG5";
     public static String sauceLabs_userName = "akter008";
     public static String sauceLabs_accesskey = "9ff10309-cb96-45ad-ba2b-73679041145d";
     public static final String browserStack_URL = "https://" + browserStack_userName + ":" + browserStack_accesskey + "@hub-cloud.browserstack.com/wd/hub";
