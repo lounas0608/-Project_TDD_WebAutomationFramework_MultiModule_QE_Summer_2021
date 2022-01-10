@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="ebay Test Suite">
+
+    <!--    parallel="tests" Working Fine but have issue-->
+    <!--    parallel="none" Working Fine-->
+    <!--    parallel="classes" Working Fine-->
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserStack"/>
+    <parameter name="os" value="windows"/>
+    <parameter name="osVersion" value="10"/>
+    <!--        <parameter name="os" value="OS X"/>-->
+    <!--        <parameter name="osVersion" value="Big Sur"/>-->
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="97"/>
+    <parameter name="url" value="https://www.ebay.com/"/>
+
+    <test name="Test Basics 1">
+        <classes>
+            <class name="homePageTest.HomePageTest"></class>
+        </classes>
+
+    </test>
+
+
+</suite>
